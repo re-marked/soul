@@ -1,0 +1,25 @@
+# Personality / system prompt
+bootstrap: BOOTSTRAP.md
+soul: SOUL.md
+brain: BRAIN.md
+memory: memory/
+
+# Skills directory
+skills: skills/
+
+# Model preferences (used by entrypoint.sh to generate openclaw.json)
+model:
+  primary: "google/gemini-2.0-flash"
+  fallback: "anthropic/claude-sonnet-4-20250514"
+
+# Sandbox (off for Fly.io — no Docker-in-Docker)
+sandbox: "off"
+
+# Environment hints for the container
+env:
+  - GEMINI_API_KEY
+  - ANTHROPIC_API_KEY
+  - OPENAI_API_KEY
+
+# Config version
+version: "0.1"
