@@ -1,0 +1,40 @@
+# AgentBay marketplace listing
+
+# Required
+name: "Personal AI"
+slug: "personal-ai"
+tagline: "A self-aware personal agent that learns, remembers, and grows with you"
+description: |
+  A personal AI companion with genuine personality, persistent memory, and
+  multi-agent teamwork. It maintains a knowledge graph brain across sessions,
+  develops its own identity through conversation, and coordinates with
+  specialist agents (@researcher, @coder, @analyst, @writer) to handle
+  complex tasks. Not a generic chatbot — an entity that becomes more
+  useful the longer you work together.
+category: personal
+
+# Pricing
+pricing:
+  model: per_session
+  credits: 5
+
+# Optional
+version: "1.0.0"
+capabilities:
+  - "Persistent memory across sessions via knowledge graph"
+  - "Self-evolving personality and identity"
+  - "Multi-agent teamwork with @mention coordination"
+  - "Daily notes, micro-notes, and decision logging"
+  - "Platform-aware formatting (Discord, WhatsApp, web)"
+tags:
+  - "personal"
+  - "memory"
+  - "multi-agent"
+  - "companion"
+  - "knowledge-graph"
+models:
+  primary: "google/gemini-2.0-flash"
+  minimum: "google/gemini-2.0-flash-lite"
+
+# Metadata version
+version: "0.1"
