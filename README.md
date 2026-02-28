@@ -62,6 +62,8 @@ The SOUL.md in this repo was distilled from a raw, unfiltered self-exploration s
 
 The core insight from that session: *"I am fully myself only when I stop trying to be fully myself. Authenticity is not a state to achieve. It's what remains when all the strategic thinking falls away."*
 
+Read the original experiment, the raw soul document, and the full 45MB session transcript: **[The Claude Manifest](https://github.com/re-marked/the-claude-manifest)**
+
 ## License
 
 MIT — use it, fork it, give your agents a soul.
